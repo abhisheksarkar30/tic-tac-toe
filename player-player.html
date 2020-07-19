@@ -6,6 +6,13 @@
 </p>
 <center>
 <SCRIPT name = "JavaScript">
+
+if (document.all||document.getElementById){
+document.write('<style>.tictac{')
+document.write('width:50px;height:50px;')
+document.write('}</style>')
+}
+
 function variables(){
     t = 1;
     change = 1;    
@@ -220,25 +227,18 @@ variables();
 </SCRIPT>
 
 <FORM>
-<input type = "button" name = "whoseturn" 
- value = "Tour: Player  1">	 
+<input type = "button" name = "whoseturn" value = "Tour: Player  1">	 
 <br><br><br><br>
 <table>
-<tr><td><input type = "button" name = "b1" value = "      "		 onClick =
-change_b1(this.form)>  
-    <td><input type = "button" name = "b2" value = "      "		 onClick = change_b2(this.form)> 
-    <td><input type = "button" name = "b3" value = "      "		 onClick =
-change_b3(this.form)> 
-<tr><td><input type = "button" name = "b4" value = "      "		 onClick =
-change_b4(this.form)> 
-    <td><input type = "button" name = "b5" value = "      "		 onClick = change_b5(this.form)> 
-    <td><input type = "button" name = "b6" value = "      "		 onClick =
-change_b6(this.form)> 
-<tr><td><input type = "button" name = "b7" value = "      "		 onClick =
-change_b7(this.form)> 
-    <td><input type = "button" name = "b8" value = "      "		 onClick = change_b8(this.form)>   
-    <td><input type = "button" name = "b9" value = "      "
-onClick = change_b9(this.form)> 
+<tr><td><input type = "button" name = "b1" class="tictac" value = "      " onClick = change_b1(this.form)>  
+    <td><input type = "button" name = "b2" class="tictac" value = "      " onClick = change_b2(this.form)> 
+    <td><input type = "button" name = "b3" class="tictac" value = "      " onClick = change_b3(this.form)></tr>
+<tr><td><input type = "button" name = "b4" class="tictac" value = "      " onClick = change_b4(this.form)> 
+    <td><input type = "button" name = "b5" class="tictac" value = "      " onClick = change_b5(this.form)> 
+    <td><input type = "button" name = "b6" class="tictac" value = "      " onClick = change_b6(this.form)></tr>
+<tr><td><input type = "button" name = "b7" class="tictac" value = "      " onClick = change_b7(this.form)> 
+    <td><input type = "button" name = "b8" class="tictac" value = "      " onClick = change_b8(this.form)>   
+    <td><input type = "button" name = "b9" class="tictac" value = "      " onClick = change_b9(this.form)></tr>
 </table>
 <br><br>
 
