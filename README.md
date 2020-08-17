@@ -2,12 +2,13 @@
 ![](https://img.shields.io/badge/Release-V1.0.0-blue.svg)  ![](https://img.shields.io/badge/Build-Stable-green.svg) ![](https://img.shields.io/badge/License-MIT-red.svg) ![](https://img.shields.io/badge/By-Abhishek%20Sarkar,%20Debojyoti%20Dey,%20Sheikh%20Shahir%20Halim-red.svg?style=social&logo=appveyor)
 
 ------------
+Let's connect 👨‍💻 and forge the future together.😁✌
 
-
-The popular game Tic-tac-toe designed while a College Fresher
+**Show your support a :star: is all this repo needs** :smile:
+<br><br>
 
 ## Welcome to Tic-tac-toe
-This is the popular game we usually play since childhood. The easiest and our favourite game of our past-times now digitized to have more fun amidst our other monotonous tasks of daily life.
+This is the popular game we usually play since childhood. The easiest and our favourite game of our past-times now digitized to have more fun amidst our other monotonous tasks of daily life. The popular game Tic-tac-toe designed while a College Fresher
 
 ## Implementation
 We have tried to design this game in JavaScript and Java having the mix of console and GUI based feel to play the game.
